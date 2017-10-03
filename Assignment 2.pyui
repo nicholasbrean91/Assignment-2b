@@ -1,0 +1,107 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {480, 320}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : true,
+        "frame" : "{{14, 17}, {460, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "06B0A090-2471-45A8-B8FB-921D9C90595C",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Enter the amount of time it took to drop the object",
+          "font_size" : 18,
+          "name" : "Description"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{47, 90}, {81, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "E0147EDB-82D1-4D49-8197-B8F7FE71DBA9",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Seconds:",
+          "font_size" : 18,
+          "name" : "Seconds_Label"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{136, 90}, {200, 32}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{140, 144}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "752B7D16-E980-4D1E-BA87-F12D61BA1CD0",
+          "alignment" : "left",
+          "text" : "",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "name" : "Seconds_TextField"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{32, 217}, {442, 61}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "23DF1589-BA25-4A1A-BC7D-5433036BE958",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "font_size" : 18,
+          "name" : "answer_label"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{148, 147}, {80, 32}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "Calculation",
+          "frame" : "{{200, 144}, {80, 32}}",
+          "title" : "Calculate",
+          "uuid" : "75B4CB04-50D2-4A60-AA8A-3EE82446048D",
+          "class" : "Button",
+          "name" : "Button",
+          "font_size" : 15
+        }
+      }
+    ],
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    }
+  }
+]
